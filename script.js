@@ -145,7 +145,7 @@ void main(){
   //white core
   col += 10.0*vec3(smoothstep(0.003, 0.001, dist));
   //green glow
-  col += glow * vec3(0.05,0.8,0.3);
+  col += glow * vec3(0.878,0.878,0.878);
         
 	col = 1.0 - exp(-col);
 
